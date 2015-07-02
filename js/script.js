@@ -43,5 +43,9 @@ $(window).scroll(function () {
 	}
 });
 
+//sponsors list
+$('.sponsors-list.gold li:nth-child(3n)').addClass('clear-list');
+$('.sponsors-list.silver li:nth-child(4n)').addClass('clear-list');
+$('.sponsors-list.individual li:nth-child(9n)').addClass('clear-list');
 
 });

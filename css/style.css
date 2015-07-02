@@ -155,6 +155,7 @@ h1{
 	font-size: 1.3em;
 }
 
+#sponsors{background: #eee;}
 #meaning,#entry{background: #f46ba0;}
 #summary{background: #82d9e6;}
 #sponsor{background: #c4ea5f;}
@@ -172,6 +173,11 @@ h2{
 	font-size: 1.9em;
 	line-height: 1.2;
 	color: #444;
+}
+
+h3{
+	font-size: 1.4em;
+	margin-bottom: 10px;
 }
 
 .box{
@@ -200,6 +206,30 @@ dd{
 	margin-bottom: 2px;
 }
 
+.sponsors-list{
+	margin-bottom: 30px;
+}
+
+.sponsors-list:last-child{
+	margin-bottom: 0;
+}
+
+.sponsors-list li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.sponsors-list.individual li{
+	width: 100px;
+}
+
+.sponsors-list.individual img{
+	border-radius: 50%;
+}
+
+.sponsors-list.individual .clear-list{
+	clear: both;
+}
 
 .sponsor-list{
 	margin: 30px 0;
@@ -464,5 +494,20 @@ footer{
 	}
 	.mainimg .sp-block{
 		display: block;
+	}
+	.sponsors-list li{
+		width: 100%;
+		margin:5px 0;
+	}
+	.sponsors-list img{
+		width: 100%;
+		height: auto;
+	}
+	.sponsors-list.individual li{
+		width: 80px;
+	}
+	.sponsors-list.individual img{
+		width: 100%;
+		height: auto;
 	}
 }
