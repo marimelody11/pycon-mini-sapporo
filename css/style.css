@@ -136,9 +136,11 @@ h1{
 }
 
 .glnav ul{
+	box-sizing: border-box;
 	background: #fff;
 	padding: 20px;
 	margin-top: 5px;
+	min-width: 1000px;
 }
 
 .glnav li{
@@ -481,8 +483,10 @@ footer{
 		left: 0;
 		width: 100%;
 		z-index: 1;
+		background: none;
 	}
 	.glnav ul{
+		min-width: auto;
 		margin: 0 20px;
 		padding: 10px 0;
 		background:rgba(50,50,50,0.8);
