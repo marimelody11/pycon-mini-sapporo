@@ -125,10 +125,20 @@ h1{
 }
 
 .glnav{
-	position: absolute;
-	right: 20px;
-	top: 20px;
+	box-sizing: border-box;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	background: url(../img/bg_body.png) center;
 	text-align: right;
+	z-index: 1;
+}
+
+.glnav ul{
+	background: #fff;
+	padding: 20px;
+	margin-top: 5px;
 }
 
 .glnav li{
