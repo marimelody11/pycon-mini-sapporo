@@ -173,7 +173,7 @@ h1{
 #sponsor{background: #c4ea5f;}
 #guest{background: #ffed75;}
 #share{background: #f7f7f7;}
-#timetable{background: #FFBA40;}
+#timetable{background: #ffc360;}
 
 .inner{
 	width: 1000px;
@@ -190,6 +190,7 @@ h2{
 h3{
 	font-size: 1.4em;
 	margin-bottom: 10px;
+	color: #444;
 }
 
 .box{
@@ -319,6 +320,9 @@ dd{
 	background: #fff;
 }
 
+.timetable-list{
+	margin-bottom: 30px;
+}
 
 .timetable-list li{
 	display: table;
@@ -554,7 +558,6 @@ footer{
 		display:block;
 		width: 100%;
 	}
-
 	.sponsor-amount{
 		display:block;
 		width: 100%;
@@ -563,80 +566,63 @@ footer{
 		display:block;
 		width: 100%;
 	}
-
 	.guest-list li{
 		display: block;
 		width: 100%;
 		margin-bottom: 20px;
 	}
-
 	.guest-icon{
 		display: block;
 		width: 100%;
 		padding-bottom: 0;
 	}
-
 	.guest-name{
 		display: block;
 		width: 100%;
 	}
-
 	.guest-summary{
 		display: block;
 		width: 100%;
 	}
-
-
-
 	.timetable-list li{
 		display: block;
 		width: 100%;
 		margin-bottom: 20px;
 	}
-
 	.timetable-time{
 		display: block;
 		width: 100%;
 	}
-
 	.timetable-icon{
 		display: block;
 		width: 100%;
 		padding-bottom: 0;
 	}
-
 	.timetable-name{
 		display: block;
 		width: 100%;
 	}
-
 	.timetable-summary{
 		display: block;
 		width: 100%;
 	}
-
 	.timetable-summary h3{
 	}
-
 	.timetable-summary.wide{
 		display: block;
 		width: 100%;
 	}
-
 	.share-list li{
 		display:block;
 		margin-left: 0;
 		width: 100%;
 	}
-
 	.share-list li:first-child{
 		margin-bottom: 10px;
 	}
-
 	.share-list a{
 		width: 100%;
 	}
-
 	.btn{
 		margin: 30px 0 0 0;
 		padding: 0;
